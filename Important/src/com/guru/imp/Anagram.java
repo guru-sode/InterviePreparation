@@ -21,7 +21,10 @@ public class Anagram {
 				{
 					String second_char=Character.toString(second.charAt(j));
 					if(first_char.equalsIgnoreCase(second_char))
+					{
 						count++;
+						break;
+					}
 					else
 						continue;
 				}
